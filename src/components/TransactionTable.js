@@ -130,6 +130,7 @@ const TransactionTable = () => {
     <div>Total Not Sold Items: {statistics.totalNotSoldItems}</div>
   </div>
 
+  <div className='overflow-auto'>
   <table className="min-w-full bg-white border border-gray-200 rounded-lg mb-4 text-black">
     <thead className="bg-[#FCE181]">
       <tr>
@@ -156,6 +157,7 @@ const TransactionTable = () => {
       )}
     </tbody>
   </table>
+  </div>
 
   <div className="flex justify-between items-center">
     <button
